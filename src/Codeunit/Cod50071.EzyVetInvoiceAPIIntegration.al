@@ -1,5 +1,6 @@
 codeunit 50071 "EzyVet Invoice API Integration"
 {
+
     procedure CheckSetup(var lErrorMsgonSetups: Text)
     begin
         if not GuiAllowed then begin
